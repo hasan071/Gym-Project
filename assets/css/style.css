@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -106,7 +106,7 @@ body {
 .gym #startJourney .paragraph p {
     margin-top: 5%;
     font-size: 20px;
-    /* color: rgba(0, 0, 0, 0.585); */
+    /* color: rgba(0, 0, 0, 0.585); 
     color: var(--text-color);
     font-family: var(--MainFont);
     line-height: 1.5;
@@ -151,7 +151,7 @@ body {
 .gym #startJourney .paragraph .buttons .learnMore:hover {
     color: white;
     background-color: rgb(188, 188, 188);
-} */
+}
 
 .gym #startJourney .image {
     width: 36%;
@@ -203,6 +203,1151 @@ body {
 .gym #why .divs .d2,
 .gym #why .divs .d3 {
     min-width: 240px;
+}
+
+.gym #why .divs .d1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 33vh;
+    /* background-color: #dbeafe;
+    background-color: var(--card-bg-premium);
+    border-radius: 12px;
+    padding: 2% 2%;
+}
+
+.gym #why .divs .d1 .outterShape {
+    width: 18%;
+    height: 8vh;
+    margin-top: 5%;
+    background-color: blue;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gym #why .divs .d1 .outterShape .innerShape {
+    width: 50%;
+    height: 4vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.gym #why .divs .d2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 33vh;
+    /* background-color: #d0fae5;
+    background-color: var(--card-bg-trainers);
+    border-radius: 12px;
+    padding: 2% 2%;
+}
+
+.gym #why .divs .d2 .outterShape {
+    width: 18%;
+    height: 8vh;
+    margin-top: 5%;
+    background-color: #009966;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gym #why .divs .d2 .outterShape .innerShape {
+    width: 50%;
+    height: 4vh;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.gym #why .divs .d3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 33vh;
+    /* background-color: #f3e8ff;
+    background-color: var(--card-bg-hours);
+    border-radius: 12px;
+    padding: 2% 2%;
+}
+
+.gym #why .divs .d3 .outterShape {
+    width: 18%;
+    height: 8vh;
+    margin-top: 5%;
+    background-color: #9810fa;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gym #why .divs .d3 .outterShape .innerShape {
+    width: 50%;
+    height: 4vh;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.gym #why .divs .d1 h3,
+.gym #why .divs .d2 h3,
+.gym #why .divs .d3 h3 {
+    margin-top: 7%;
+    font-family: var(--MainFont);
+    margin-bottom: 7%;
+}
+
+.gym #why .divs .d1 p,
+.gym #why .divs .d2 p,
+.gym #why .divs .d3 p,
+.gym #moreThan .paragraph .part p {
+    color: var(--text-color);
+}
+
+.gym #moreThan {
+    width: 86%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gym #moreThan .image {
+    width: 50%;
+    height: 40vh;
+    background-image: url(../images/why-choose-us.png);
+    background-size: 100% 100%;
+    margin-top: 2%;
+    border-radius: 12px;
+    margin-right: 5%;
+}
+
+.gym #moreThan .paragraph h2 {
+    font-family: var(--MainFont);
+    font-size: 30px;
+}
+
+.gym #moreThan .paragraph .part {
+    margin-top: 3%;
+    padding: 2% 4%;
+    border-left: 4px solid var(--backgrounf-btn);
+}
+
+.gym #moreThan .paragraph .part h3 {
+    font-family: var(--MainFont);
+}
+
+.gym2 #ourMembers {
+    width: 100%;
+    margin-top: 5%;
+    background-color: var(--background-gym2);
+    /* background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gym2 #ourMembers h1 {
+    margin-top: 3%;
+    font-family: var(--MainFont);
+}
+
+.gym2 #ourMembers .paragraph2 {
+    margin-top: 2%;
+    color: var(--text-color);
+    font-size: 22px;
+    font-family: var(--MainFont);
+}
+
+.gym2 #ourMembers .cards {
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gym2 #ourMembers .cards .card1 {
+    padding: 2% 2%;
+    width: 32%;
+    height: 30vh;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 12px;
+    /* background-color: #eff6ff;
+    background-color: var(--card-bg-premium);
+    border: 1px solid #bbd8ff;
+}
+.gym2 #ourMembers .cards .card2 {
+    padding: 2% 2%;
+    width: 32%;
+    height: 30vh;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 12px;
+    /* background-color: #ecfdf5;
+    background-color: var(--card-bg-trainers);
+    border: 1px solid #9bf9cf;
+}
+.gym2 #ourMembers .cards .card3 {
+    padding: 2% 2%;
+    width: 32%;
+    height: 30vh;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 12px;
+    /* background-color: #faf5ff; 
+    background-color: var(--card-bg-hours);
+    border: 1px solid #e3c6ff;
+}
+
+.gym2 #ourMembers .cards .card .top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gym2 #ourMembers .cards .card1 .top .image {
+    width: 25%;
+    height: 8vh;
+    border-radius: 50%;
+    background-image: url(../images/avatar-1.jpg);
+    background-size: 100% 100%;
+}
+.gym2 #ourMembers .cards .card2 .top .image {
+    width: 23%;
+    height: 8vh;
+    border-radius: 50%;
+    background-image: url(../images/avatar-2.jpg);
+    background-size: 100% 100%;
+}
+.gym2 #ourMembers .cards .card3 .top .image {
+    width: 24%;
+    height: 9vh;
+    border-radius: 50%;
+    background-image: url(../images/avatar-3.jpg);
+    background-size: 100% 100%;
+}
+
+.gym2 #ourMembers .cards .card .bottom {
+    margin-top: 10%;
+}
+
+.gym2 #ourMembers .cards .card .top .data p,
+.gym2 #ourMembers .cards .card .bottom p {
+    line-height: 1.5;
+    color: var(--card-text);
+}
+
+.gym2 #ourMembers .numbers {
+    width: 76%;
+    height: 20vh;
+    border-radius: 12px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--text-color);
+    background-color: var(--form-background);
+}
+
+.gym2 #ourMembers .numbers .num span {
+    font-family: var(--MainFont);
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+.gym2 #ourMembers .numbers .num p {
+    color: var(--text-color);
+}
+
+.gym2 #signWithUs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gym2 #signWithUs h1 {
+    font-family: var(--MainFont);
+    margin-top: 5%;
+}
+
+.gym2 #signWithUs p {
+    color: var(--text-color);
+    margin-top: 2%;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gym2 #signWithUs .form {
+    width: 60%;
+    margin-top: 5%;
+    padding: 2% 4%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--form-background);
+    border-radius: 12px;
+}
+
+.gym2 #signWithUs .form form {
+    width: 100%;
+    line-height: 3;
+}
+
+.gym2 #signWithUs .form .top {
+    /* width: 100%;
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-between;
+    align-items: center;
+}
+
+.gym2 #signWithUs .form form .top .fn,
+.gym2 #signWithUs .form form .top .ln {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+}
+
+.gym2 #signWithUs .form form .email,
+.gym2 #signWithUs .form form .number,
+.gym2 #signWithUs .form form .memberShip,
+.gym2 #signWithUs .form form .fitnessGoals {
+    display: flex;
+    flex-direction: column;
+}
+
+.gym2 #signWithUs .form form .email label,
+.gym2 #signWithUs .form form .number label,
+.gym2 #signWithUs .form form .memberShip label,
+.gym2 #signWithUs .form form .fitnessGoals label,
+.gym2 #signWithUs .form .top .fn label,
+.gym2 #signWithUs .form .top .ln label {
+    font-size: 18px;
+    font-family: var(--MainFont);
+}
+.gym2 #signWithUs .form form .email input,
+.gym2 #signWithUs .form form .number input,
+.gym2 #signWithUs .form form .memberShip select,
+.gym2 #signWithUs .form form .fitnessGoals input,
+.gym2 #signWithUs .form form .fitnessGoals textarea,
+.gym2 #signWithUs .form .top .fn input,
+.gym2 #signWithUs .form .top .ln input {
+    border: 1px solid rgb(204, 204, 204);
+    height: 8vh;
+    padding: 2% 2%;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: var(--MainFont);
+}
+
+.gym2 #signWithUs .form form .fitnessGoals textarea {
+    width: 100%;
+    height: 150px;
+}
+
+.gym2 #signWithUs .form form .submit {
+    width: 100%;
+    height: 7vh;
+    margin-top: 3%;
+    border-radius: 12px;
+    color: var(--btn-bg);
+    background-color: var(--backgrounf-btn);
+    font-size: 20px;
+    font-family: var(--MainFont);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.gym2 #signWithUs .form form .submit:hover {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.gym2 #footer {
+    width: 100%;
+    background-color: #101828;
+    color: white;
+    padding: 5% 12%;
+}
+
+.gym2 #footer .top {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: flex-start;
+}
+
+.gym2 #footer .top .fitCore {
+    width: 46%;
+}
+
+.gym2 #footer .top .fitCore h3 {
+    margin-bottom: 5%;
+    font-size: 30px;
+    font-family: var(--MainFont);
+}
+
+.gym2 #footer .top .fitCore p {
+    margin-bottom: 5%;
+    color: #99a1af;
+    font-size: 16px;
+    font-family: var(--MainFont);
+    line-height: 1.5;
+}
+
+.gym2 #footer .top .fitCore .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.gym2 #footer .top .fitCore .links a {
+    text-decoration: none;
+    color: #99a1af;
+    transition: 0.3s;
+}
+
+.gym2 #footer .top .fitCore .links a:hover,
+.gym2 #footer .top .quickLinks ul a:hover,
+.gym2 #footer .bottom .PTC a:hover {
+    color: white;
+}
+
+.gym2 #footer .top .quickLinks {
+    /* width: 70%;
+}
+
+.gym2 #footer .top .quickLinks h3 {
+    margin-bottom: 17%;
+    font-size: 30px;
+    font-family: var(--MainFont);
+}
+
+.gym2 #footer .top .quickLinks ul {
+    list-style: none;
+    line-height: 2;
+}
+
+.gym2 #footer .top .quickLinks ul a {
+    text-decoration: none;
+    color: #99a1af;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.gym2 #footer .top .contactInfo {
+    
+}
+
+.gym2 #footer .top .contactInfo h3 {
+    margin-bottom: 12%;
+    font-size: 30px;
+    font-family: var(--MainFont);
+}
+
+.gym2 #footer .top .contactInfo h4 {
+    margin-bottom: 4%;
+    font-size: 18px;
+    font-family: var(--MainFont);
+}
+
+.gym2 #footer .top .contactInfo p {
+    margin-bottom: 6%;
+    color: #99a1af;
+}
+
+.gym2 #footer .line {
+    width: 100%;
+    height: 0.2vh;
+    background-color: #99a1af66;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.gym2 #footer .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gym2 #footer .bottom .copyRight {
+    color: #99a1af;
+}
+
+.gym2 #footer .bottom .PTC {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+}
+
+.gym2 #footer .bottom .PTC a {
+    text-decoration: none;
+    color: #99a1af;
+    transition: 0.3s;
+}
+
+.gym #why .divs {
+    gap: 20px;
+}
+
+.gym #why .divs .d1,
+.gym #why .divs .d2,
+.gym #why .divs .d3 {
+    min-width: 240px;
+}
+
+.gym #moreThan .image,
+.gym2 #ourMembers .cards .card .top .image {
+    background-size: cover;
+    background-position: center;
+}
+
+.gym2 #footer .top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.gym2 #footer .top .fitCore,
+.gym2 #footer .top .quickLinks,
+.gym2 #footer .top .contactInfo {
+    min-width: 250px;
+    flex: 1 1 280px;
+}
+
+.all .btn {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    background-color: black;
+    color: white;
+    font-family: var(--MainFont);
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 0.5px solid white;
+    padding: 0.75rem 0.9rem;
+    display: none;
+    z-index: 999;
+}
+
+.all .btn:hover {
+    background-color: white;
+    color: black;
+    border: 0.5px solid black;
+}
+
+.all .night,
+.all .morning {
+    position: fixed;
+    top: 1rem;
+    min-width: 40px;
+    background-color: var(--night-btn);
+    color: var(--morning-btn);
+    font-family: var(--MainFont);
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0.65rem 0.85rem;
+    z-index: 999;
+}
+
+.all .night {
+    right: 1rem;
+    background-color: var(--night-btn);
+    color: var(--morning-btn);
+    border: 0.5px solid var(--morning-btn);
+}
+
+.all .morning {
+    right: 5.2rem;
+    background-color: var(--morning-btn);
+    color: var(--night-btn);
+    border: 0.5px solid var(--night-btn);
+}
+
+@media (max-width: 768px) {
+    .all .btn {
+        bottom: 1rem;
+        right: 1rem;
+        padding: 0.6rem 0.75rem;
+        font-size: 0.9rem;
+    }
+
+    .all .night,
+    .all .morning {
+        top: auto;
+        bottom: 5.2rem;
+        right: 1rem;
+        width: 2.8rem;
+        padding: 0.55rem 0.7rem;
+    }
+
+    .all .morning {
+        bottom: 8.2rem;
+        right: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .all .btn,
+    .all .night,
+    .all .morning {
+        right: 0.75rem;
+    }
+
+    .all .night,
+    .all .morning {
+        width: 2.6rem;
+        padding: 0.45rem 0.6rem;
+    }
+
+    .all .morning {
+        bottom: 7.8rem;
+    }
+
+    .all .night {
+        bottom: 5.2rem;
+    }
+}
+
+/* .all .night:hover,
+.all .morning:hover {
+    background-color: var(--bg-color);
+    color: black;
+    border: 2px solid black;
+} */
+
+
+
+/* Media Query */
+
+/* ─── TABLET (≤ 1024px) ─────────────────────── */
+/* @media (max-width: 1024px) {
+
+    .gym {
+        padding: 5vh 4% 2vh;
+    }
+
+    .gym #startJourney {
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .gym #startJourney .paragraph h1 {
+        font-size: 38px;
+    }
+
+    .gym #startJourney .paragraph p {
+        font-size: 17px;
+    }
+
+    .gym #startJourney .paragraph .buttons .start,
+    .gym #startJourney .paragraph .buttons .learnMore {
+        width: 45%;
+        height: 7vh;
+    }
+
+    .gym #startJourney .image {
+        width: 80%;
+        height: 40vh;
+        margin-right: 0;
+    }
+
+    .gym #why h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .gym #why .divs {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .gym #why .divs .d1,
+    .gym #why .divs .d2,
+    .gym #why .divs .d3 {
+        width: 45%;
+        height: auto;
+        padding: 5% 4%;
+    }
+
+    .gym #moreThan {
+        width: 95%;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .gym #moreThan .image {
+        width: 85%;
+        height: 35vh;
+        margin-right: 0;
+    }
+
+    .gym2 #ourMembers .cards {
+        width: 92%;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .gym2 #ourMembers .cards .card1,
+    .gym2 #ourMembers .cards .card2,
+    .gym2 #ourMembers .cards .card3 {
+        width: 45%;
+        height: auto;
+        margin: 0;
+        padding: 4%;
+    }
+
+    .gym2 #ourMembers .numbers {
+        width: 90%;
+        flex-wrap: wrap;
+        height: auto;
+        padding: 4%;
+        gap: 20px;
+    }
+
+    .gym2 #ourMembers .numbers .num {
+        min-width: 160px;
+        text-align: center;
+    }
+
+    .gym2 #signWithUs .form {
+        width: 80%;
+    }
+
+    .gym2 #footer {
+        padding: 5% 6%;
+    }
+
+    .gym2 #footer .bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .gym {
+        padding: 4vh 4% 2vh;
+    }
+
+    .gym #startJourney {
+        width: 100%;
+    }
+
+    .gym #startJourney .paragraph h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .gym #startJourney .paragraph p {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .gym #startJourney .paragraph .buttons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .gym #startJourney .paragraph .buttons .start,
+    .gym #startJourney .paragraph .buttons .learnMore {
+        width: 48%;
+        height: 6vh;
+        font-size: 15px;
+    }
+
+    .gym #startJourney .image {
+        width: 100%;
+        height: 32vh;
+    }
+
+    .gym #why h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .gym #why .paragraph1 {
+        font-size: 15px;
+        text-align: center;
+        padding: 0 4%;
+    }
+
+    .gym #why .divs {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .gym #why .divs .d1,
+    .gym #why .divs .d2,
+    .gym #why .divs .d3 {
+        width: 90%;
+        padding: 6% 5%;
+    }
+
+    .gym #why .divs .d1 .outterShape,
+    .gym #why .divs .d2 .outterShape,
+    .gym #why .divs .d3 .outterShape {
+        width: 14%;
+        height: 7vh;
+    }
+
+    .gym #moreThan {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .gym #moreThan .image {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .gym #moreThan .paragraph {
+        width: 90%;
+    }
+
+    .gym #moreThan .paragraph h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .gym2 #ourMembers h1 {
+        font-size: 26px;
+        text-align: center;
+        padding: 0 4%;
+    }
+
+    .gym2 #ourMembers .paragraph2 {
+        font-size: 15px;
+        text-align: center;
+        padding: 0 4%;
+    }
+
+    .gym2 #ourMembers .cards {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gym2 #ourMembers .cards .card1,
+    .gym2 #ourMembers .cards .card2,
+    .gym2 #ourMembers .cards .card3 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .gym2 #ourMembers .numbers {
+        width: 90%;
+        gap: 16px;
+    }
+
+    .gym2 #ourMembers .numbers .num {
+        text-align: center;
+    }
+
+    .gym2 #ourMembers .numbers .num span {
+        font-size: 24px;
+    }
+
+    .gym2 #signWithUs h1 {
+        font-size: 24px;
+        text-align: center;
+        padding: 0 4%;
+    }
+
+    .gym2 #signWithUs p {
+        font-size: 16px;
+        text-align: center;
+        padding: 0 4%;
+    }
+
+    .gym2 #signWithUs .form {
+        width: 92%;
+        padding: 5% 5%;
+    }
+
+    .gym2 #signWithUs .form form .top {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .gym2 #signWithUs .form form .email input,
+    .gym2 #signWithUs .form form .number input,
+    .gym2 #signWithUs .form form .memberShip select,
+    .gym2 #signWithUs .form form .fitnessGoals textarea,
+    .gym2 #signWithUs .form .top .fn input,
+    .gym2 #signWithUs .form .top .ln input {
+        height: 6vh;
+        font-size: 16px;
+    }
+
+    .gym2 #signWithUs .form form .submit {
+        font-size: 16px;
+        height: 6vh;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .gym #startJourney .paragraph h1 {
+        font-size: 24px;
+    }
+
+    .gym #startJourney .paragraph .buttons .start,
+    .gym #startJourney .paragraph .buttons .learnMore {
+        width: 100%;
+    }
+
+    .gym #startJourney .image {
+        height: 26vh;
+    }
+
+    .gym #why h1 {
+        font-size: 22px;
+    }
+
+    .gym #moreThan .paragraph h2 {
+        font-size: 20px;
+    }
+
+    .gym2 #ourMembers h1 {
+        font-size: 22px;
+    }
+
+    .gym2 #ourMembers .numbers {
+        flex-direction: column;
+        height: auto;
+        padding: 6%;
+        gap: 20px;
+    }
+
+    .gym2 #signWithUs h1 {
+        font-size: 20px;
+    }
+
+    .gym2 #signWithUs .form {
+        width: 96%;
+        padding: 6% 5%;
+    }
+} */
+
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --MainFont: 'Inter', sans-serif;
+}
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+    --btn-bg: #eeeeee;
+    --btn-text: #333333;
+
+    --card-bg-premium: #e3efff;
+    --card-bg-trainers: #e3f9ee;
+    --card-bg-hours: #f5edf9;
+    --card-text: #555555;
+
+    --form-background: #cbcbcb;
+    --backgrounf-btn: #000000;
+
+    --background-gym2: #f9fafb;
+
+    --morning-btn: #ffffff;
+    --night-btn: #000000;
+}
+
+body.dark-mode {
+    --bg-color: #121212;
+    --text-color: #ffffff;
+    --btn-bg: #333333;
+    --btn-text: #ffffff;
+    
+    --card-bg-premium: #1a2436;
+    --card-bg-trainers: #162d21;
+    --card-bg-hours: #251b2d;
+    --card-text: #dddddd;
+    
+    --form-background: #929292;
+    --backgrounf-btn: #ffffff;
+    
+    --background-gym2: #6a6a6a;
+    
+    --morning-btn: #000000;
+    --night-btn: #ffffff;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.gym {
+    width: 100%;
+    padding: 7vh 7% 2vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gym #startJourney {
+    width: 85%;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+
+.gym #startJourney .paragraph h1 {
+    font-size: 50px;
+    font-weight: 800;
+    font-family: var(--MainFont);
+    line-height: 1.5;
+}
+
+.gym #startJourney .paragraph p {
+    margin-top: 5%;
+    max-width: 600px;
+    font-size: 20px;
+    /* color: rgba(0, 0, 0, 0.585); */
+    color: var(--text-color);
+    font-family: var(--MainFont);
+    line-height: 1.5;
+}
+
+.gym #startJourney .paragraph .buttons {
+    margin-top: 5%;
+}
+
+.gym #startJourney .paragraph .buttons .start {
+    width: 35%;
+    height: 9vh;
+    margin-right: 10px;
+    color: var(--btn-bg);
+    background-color: var(--backgrounf-btn);
+    border-radius: 12px;
+    font-size: large;
+    font-family: var(--MainFont);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.gym #startJourney .paragraph .buttons .learnMore {
+    width: 35%;
+    height: 9vh;
+    color: var(--btn-text);
+    background-color: var(--bg-color);
+    border-radius: 12px;
+    border: 2px solid var(--backgrounf-btn);
+    font-size: large;
+    font-family: var(--MainFont);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* .gym #startJourney .paragraph .buttons .start:hover {
+    color: var(--btn-bg);
+    background-color: #6b6461;
+}
+.gym #startJourney .paragraph .buttons .learnMore:hover {
+    color: white;
+    background-color: rgb(188, 188, 188);
+} */
+
+.gym #startJourney .image {
+    width: 36%;
+    height: 50vh;
+    background-image: url(../images/hero-section-img.png);
+    background-size: 100% 100%;
+    margin-top: 2%;
+    border-radius: 12px;
+    margin-right: 5%;
+}
+
+.gym #why {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gym #why h1 {
+    font-family: var(--MainFont);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.gym #why .paragraph1 {
+    margin-top: 2%;
+    max-width: 700px;
+    text-align: center;
+    font-size: 20px;
+    color: var(--text-color);
+    font-family: var(--MainFont);
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gym #why .divs {
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
 }
 
 .gym #why .divs .d1 {
@@ -484,6 +1629,8 @@ body {
 .gym2 #signWithUs p {
     color: var(--text-color);
     margin-top: 2%;
+    max-width: 650px;
+    text-align: center;
     font-size: 22px;
     display: flex;
     flex-direction: column;
@@ -612,8 +1759,6 @@ body {
     justify-content: space-between;
     align-items: center;
     width: 40%;
-    flex-wrap: wrap;
-    gap: 12px;
 }
 
 .gym2 #footer .top .fitCore .links a {
@@ -702,40 +1847,11 @@ body {
     transition: 0.3s;
 }
 
-.gym #why .divs {
-    gap: 20px;
-}
-
-.gym #why .divs .d1,
-.gym #why .divs .d2,
-.gym #why .divs .d3 {
-    min-width: 240px;
-}
-
-.gym #moreThan .image,
-.gym2 #ourMembers .cards .card .top .image {
-    background-size: cover;
-    background-position: center;
-}
-
-.gym2 #footer .top {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 30px;
-}
-
-.gym2 #footer .top .fitCore,
-.gym2 #footer .top .quickLinks,
-.gym2 #footer .top .contactInfo {
-    min-width: 250px;
-    flex: 1 1 280px;
-}
-
 .all .btn {
+    position: absolute;
+    top: 93%;
+    left: 96%;
     position: fixed;
-    bottom: 1.5rem;
-    right: 1.5rem;
     background-color: black;
     color: white;
     font-family: var(--MainFont);
@@ -744,9 +1860,8 @@ body {
     cursor: pointer;
     transition: 0.3s;
     border: 0.5px solid white;
-    padding: 0.75rem 0.9rem;
+    padding: 0.5% 0.5%;
     display: none;
-    z-index: 999;
 }
 
 .all .btn:hover {
@@ -755,79 +1870,38 @@ body {
     border: 0.5px solid black;
 }
 
-.all .night,
-.all .morning {
+.all .night {
+    position: absolute;
+    top: 3%;
+    left: 96%;
     position: fixed;
-    top: 1rem;
-    min-width: 40px;
     background-color: var(--night-btn);
     color: var(--morning-btn);
+    /* background-color: var(--btn-bg);
+    color: var(--btn-text); */
     font-family: var(--MainFont);
     font-weight: bold;
     border-radius: 6px;
     cursor: pointer;
     transition: 0.3s;
-    padding: 0.65rem 0.85rem;
-    z-index: 999;
-}
-
-.all .night {
-    right: 1rem;
-    background-color: var(--night-btn);
-    color: var(--morning-btn);
     border: 0.5px solid var(--morning-btn);
+    padding: 0.5% 0.8%;
 }
 
 .all .morning {
-    right: 5.2rem;
+    position: absolute;
+    top: 3%;
+    left: 92%;
+    position: fixed;
     background-color: var(--morning-btn);
     color: var(--night-btn);
+    font-family: var(--MainFont);
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
     border: 0.5px solid var(--night-btn);
-}
-
-@media (max-width: 768px) {
-    .all .btn {
-        bottom: 1rem;
-        right: 1rem;
-        padding: 0.6rem 0.75rem;
-        font-size: 0.9rem;
-    }
-
-    .all .night,
-    .all .morning {
-        top: auto;
-        bottom: 5.2rem;
-        right: 1rem;
-        width: 2.8rem;
-        padding: 0.55rem 0.7rem;
-    }
-
-    .all .morning {
-        bottom: 8.2rem;
-        right: 1rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .all .btn,
-    .all .night,
-    .all .morning {
-        right: 0.75rem;
-    }
-
-    .all .night,
-    .all .morning {
-        width: 2.6rem;
-        padding: 0.45rem 0.6rem;
-    }
-
-    .all .morning {
-        bottom: 7.8rem;
-    }
-
-    .all .night {
-        bottom: 5.2rem;
-    }
+    padding: 0.5% 0.8%;
 }
 
 /* .all .night:hover,
@@ -934,24 +2008,38 @@ body {
         gap: 20px;
     }
 
-    .gym2 #ourMembers .numbers .num {
-        min-width: 160px;
-        text-align: center;
-    }
-
     /* Sign up form */
     .gym2 #signWithUs .form {
         width: 80%;
     }
 
+    /* Footer */
     .gym2 #footer {
-        padding: 5% 6%;
+        padding: 6% 6%;
     }
 
-    .gym2 #footer .bottom {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+    .gym2 #footer .top {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .gym2 #footer .top .fitCore {
+        width: 100%;
+    }
+
+    .gym2 #footer .top .fitCore .links {
+        width: 50%;
+    }
+
+    .gym2 #footer .top .quickLinks,
+    .gym2 #footer .top .contactInfo {
+        width: 45%;
+    }
+
+    /* Toggle buttons */
+    .all .night,
+    .all .morning {
+        padding: 8px 12px;
     }
 }
 
@@ -1126,6 +2214,72 @@ body {
         font-size: 16px;
         height: 6vh;
     }
+
+    /* Footer */
+    .gym2 #footer {
+        padding: 8% 6%;
+        text-align: center;
+    }
+
+    .gym2 #footer .top {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .gym2 #footer .top .fitCore,
+    .gym2 #footer .top .quickLinks,
+    .gym2 #footer .top .contactInfo {
+        width: 100%;
+    }
+
+    .gym2 #footer .top .fitCore .links {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .gym2 #footer .top .quickLinks h3,
+    .gym2 #footer .top .contactInfo h3 {
+        margin-bottom: 5%;
+    }
+
+    .gym2 #footer .bottom {
+        flex-direction: column;
+        gap: 14px;
+        text-align: center;
+    }
+
+    .gym2 #footer .bottom .PTC {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    /* Toggle buttons: switch from percentage to fixed px so they don't
+       collide or shrink oddly on narrow screens */
+    .all .night {
+        top: auto;
+        bottom: 16px;
+        left: auto;
+        right: 74px;
+        padding: 8px 12px;
+    }
+
+    .all .morning {
+        top: auto;
+        bottom: 16px;
+        left: auto;
+        right: 16px;
+        padding: 8px 12px;
+    }
+
+    .all .btn {
+        top: auto;
+        bottom: 70px;
+        left: auto;
+        right: 16px;
+        padding: 6px 10px;
+    }
 }
 
 
@@ -1171,5 +2325,18 @@ body {
     .gym2 #signWithUs .form {
         width: 96%;
         padding: 6% 5%;
+    }
+
+    .gym2 #footer .top .fitCore .links {
+        width: 90%;
+    }
+
+    .gym2 #footer .top .quickLinks,
+    .gym2 #footer .top .contactInfo {
+        text-align: center;
+    }
+
+    .all .night {
+        right: 64px;
     }
 }
