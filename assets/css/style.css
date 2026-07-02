@@ -732,7 +732,7 @@ body {
     flex: 1 1 280px;
 }
 
-..all .btn {
+.all .btn {
     position: fixed;
     bottom: 1.5rem;
     right: 1.5rem;
